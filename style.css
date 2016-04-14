@@ -1,0 +1,21 @@
+h1 {
+	border-color: yellow;
+	background-color: #990000;
+}
+img {
+	float: right;
+	width: 500 px;
+}
+body{
+	background-image: url(http://ubuntusatanic.org/wallpapers/SE-Baphomet.jpg);
+}
+.rata { 
+	border-color: yellow;
+}
+div {
+    width: 144px;
+    height: 84px;
+}
+
+/* background repeat CSS */
+/* Multiple images */
