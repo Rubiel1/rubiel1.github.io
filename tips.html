@@ -1,0 +1,110 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+    <title>Loops</title>
+    <link rel="stylesheet" href="github-markdown.css">
+    <style>
+      body {
+        box-sizing: border-box;
+        min-width: 200px;
+        max-width: 980px;
+        margin: 0 auto;
+        padding: 45px;
+      }
+    </style>
+</head>
+<body >
+  <article class="markdown-body">
+      <p align="center">
+        <h1>Advices to work with image data</h1>
+        </p>
+      <p><nav>
+       <a href="index.html"> Main page</a>&bull;
+        <a href="mlseminar.html">Teaching</a>&bull;
+        <a href="research.html">Research</a>&bull;
+        <a href="activism.html">Activism</a>&bull;
+        <a href="talks.html">Talks</a>&bull;
+        <a href="tec.html">Experiments with technology</a>&bull;
+        <a href="tutoring.html">Tutoring</a>&bull;
+        <a href="bm.html">Books and movies</a>&bull;
+      </nav></p>
+      
+<p>
+
+  Here are some advices to run computations on a big number of images.
+
+   
+  Suppose you need to test combinations of two process on images. Perhaps this is a grid search.
+Let's say 
+
+<pre>
+def P(X,a):
+    #X is the image
+    #a is a parameter to test
+def Q(Y,b):
+    #Y is the output of P(X,a)
+    #b is a parameter to test
+X = some image
+values = [Q(P(X,a),b) for a in P_parameters for b in Q_parameters]
+</pre>
+
+    
+Note that you computes 'P(X,a)' several times. Is the speed improvement of the list comprehension worth repiting a computation?
+In the following example, the answer is no:
+      <pre>
+        import timeit
+s='''
+from PIL import Image
+img = Image.effect_noise((128,128), 64)
+base_img = Image.effect_noise((128,128), 32)
+base2_img = Image.effect_noise((128,128), 128)
+listimages=[]
+for value in range(100):
+    imgt = endvalue = Image.blend(img, base_img, value/110)
+    for value2 in range(100):
+        endvalue = Image.blend(imgt, base2_img, value2/110)
+        listimages.append(endvalue)
+'''
+
+s2='''
+from PIL import Image
+img = Image.effect_noise((128,128), 64)
+base_img = Image.effect_noise((128,128), 32)
+base2_img = Image.effect_noise((128,128), 128)
+otherlist = [Image.blend(Image.blend(img, base_img, value/110), base2_img, value2/110) for value in range(100) for value2 in range(100) ]'''
+
+timeit.timeit(stmt=s, number=10)
+4.859600699999646
+
+timeit.timeit(stmt=s2, number=10)
+7.060585000000174
+</pre>
+
+Now if you work with loops, then be carefull about function call optimization and local variables. You can read about it  <a href='https://wiki.python.org/moin/PythonSpeed/PerformanceTips'> in this link of Performance tips </a href>.
+
+The main idea is that you don't want python to look for a function every loop. 
+</p>
+<p>
+Finally, it helps to learn about Threads and Multiprocess. Sometimes a simple:
+
+<pre>
+import threading
+import concurrent.futures
+
+def func(parameter):
+    pass
+lista = [some iterator]
+n=#virtual cpus
+
+with concurrent.futures.ProcessPoolExecutor(max_workers=n) as executor:
+    executor.map(func, lista) </pre> 
+    will suffice. 
+</p>
+</article>
+
+</body>
+
+</html>
