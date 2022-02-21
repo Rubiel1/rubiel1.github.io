@@ -62,7 +62,7 @@ newlist = [i+1 for i in range(iterations)]'''
 timeit.timeit(s2)
 4.8245505000000435    
 </pre>
-Now, assume that the objects on the list are all possible combinations of two process on images (perhaps this is a grid search for optimal parameters). 
+Now, assume that the objects on the list are all possible combinations of two processes on images (perhaps this is a grid search for optimal parameters). 
 Let's say 
 
 <pre>
@@ -78,7 +78,7 @@ values = [Q(P(X,a),b) for a in P_parameters for b in Q_parameters]
 
 
     
-Note that you computes 'P(X,a)' several times. You may assume that the speed improvement of the list comprehension is worth repiting a computation, but in the following example, we see that there is not even a speed improvement:
+Note that you compute 'P(X,a)' several times. You may assume that the speed improvement of the list comprehension is worth repeating a computation, but in the following example, we see that there is not even a speed improvement:
 <pre>import timeit
 s='''
 from PIL import Image
