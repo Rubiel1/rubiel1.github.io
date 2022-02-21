@@ -100,7 +100,7 @@ timeit.timeit(stmt=s2, number=10)
 5.474881500000038
 </pre>
 
-Now, if you work with loops, then you have to be careful about function call optimization and local variables. Here is an example from <a href='https://wiki.python.org/moin/PythonSpeed/PerformanceTips'> Python Performance tips </a href>.
+If you choose to work with loops, then you have to be careful about function call optimization and local variables. Here is an example from <a href='https://wiki.python.org/moin/PythonSpeed/PerformanceTips'> Python Performance tips </a href>.
 
 <pre>
 newlist = []
@@ -122,7 +122,7 @@ for word in oldlist:
 
 </p>
 <p>
-Finally, it helps to learn about Threads and Multiprocess. Sometimes a simple:
+Another advice is to learn about Threads and Multiprocess. Sometimes a simple:
 
 <pre>
 import threading
