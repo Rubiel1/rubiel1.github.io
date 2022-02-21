@@ -83,9 +83,25 @@ timeit.timeit(stmt=s2, number=10)
 7.060585000000174
 </pre>
 
-Now if you work with loops, then be careful about function call optimization and local variables. You can read about it  <a href='https://wiki.python.org/moin/PythonSpeed/PerformanceTips'> in this link of Performance tips </a href>.
+Now if you work with loops, then be careful about function call optimization and local variables. Here is an example from <a href='https://wiki.python.org/moin/PythonSpeed/PerformanceTips'> Python Performance tips </a href>.
 
-The main idea is that you don't want python to look for a function every loop. 
+<pre>
+newlist = []
+for word in oldlist:
+    newlist.append(str.upper(word)) 
+</pre>
+
+<q>Both newlist.append and word.upper are function references that are reevaluated each time through the loop. </q>
+
+Instead you should write:
+<pre>
+upper = str.upper
+newlist = []
+append = newlist.append
+for word in oldlist:
+    append(upper(word))
+</pre>
+
 </p>
 <p>
 Finally, it helps to learn about Threads and Multiprocess. Sometimes a simple:
@@ -102,6 +118,9 @@ n=#virtual cpus
 with concurrent.futures.ProcessPoolExecutor(max_workers=n) as executor:
     executor.map(func, lista) </pre> 
     will suffice. 
+</p>
+
+<p>You can find other advices in  <a href='https://wiki.python.org/moin/PythonSpeed/PerformanceTips'> in this link of Performance tips </a href>.
 </p>
 </article>
 
