@@ -110,18 +110,19 @@ timeit.timeit(stmt=s2, number=10)
 This is an abstract example, but in Machine Learning/Computer Vision you may have a similar process with other operations such as rotation or resizing.
 </p><p>
 
-If you choose to work with loops, then you have to be careful about function call optimization and local variables. Here is an example from <a href='https://wiki.python.org/moin/PythonSpeed/PerformanceTips'> Python Performance tips </a href>.
+Here is another example of optimization, this one is from <a href='https://wiki.python.org/moin/PythonSpeed/PerformanceTips'> Python Performance tips </a href>.
 
 <pre>
 newlist = []
 for word in oldlist:
     newlist.append(word.upper()) 
 </pre>
+
+<q>Suppose you can't use map or a list comprehension? You may be stuck with the for loop. The for loop example has another inefficiency. Both newlist.append and word.upper are function references that are reevaluated each time through the loop.</q>
 </p>
-<q>Both newlist.append and word.upper are function references that are reevaluated each time through the loop. </q>
 <p>
 
-Instead you should write:
+you should write instead:
 <pre>
 upper = str.upper
 newlist = []
@@ -129,9 +130,15 @@ append = newlist.append
 for word in oldlist:
     append(upper(word))
 </pre>
-
+</p><p>
+This was a little bit surprising, and I received some emails questioning the validity of that optimization.
+</p><p>
+ First of all, the author of the Python performance tips suggest that we should always make test with our specific version of Python. I compared the previous two blocks of code in my laptop, by plotting the number of words vs time. Here are my results:
 </p>
+<img src='img/time.png'></img>
 <p>
+  <p>In general avoiding dots seems to be a good idea when working with big data, but you should make your own test.</p>
+
 Another piece of advice is to learn about Threads and Multiprocess. Sometimes a simple:
 
 <pre>
@@ -145,7 +152,7 @@ with concurrent.futures.ProcessPoolExecutor(max_workers=n) as executor:
     will suffice. 
 </p>
 
-<p>You can find other advices in  <a href='https://wiki.python.org/moin/PythonSpeed/PerformanceTips'> this link of Performance tips </a href>.
+<p>You can find other advices, such as profiling, in  <a href='https://wiki.python.org/moin/PythonSpeed/PerformanceTips'> this link of Performance tips </a href>.
 </p>
 </article>
 
