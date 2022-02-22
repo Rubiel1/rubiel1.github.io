@@ -130,15 +130,30 @@ append = newlist.append
 for word in oldlist:
     append(upper(word))
 </pre>
-</p><p>
-This was a little bit surprising, and I received some emails questioning the validity of that optimization.
-</p><p>
- First of all, the author of the Python performance tips suggest that we should always make test with our specific version of Python. I compared the previous two blocks of code in my laptop, by plotting the number of words vs time. Here are my results:
-</p>
-<img src='img/time.png'></img>
-<p>
-  <p>In this case, avoiding dots seems to be a good idea when working with big data, but you should make your own test.</p>
 
+<p> The  <a href='https://wiki.python.org/moin/PythonSpeed/PerformanceTips'> list of Performance tips </a href> also recommends using local variables:
+</p><p>
+<q> If the above loop is cast as a function, append and upper become local variables. Python accesses local variables much more efficiently than global variables.</q> So the version with local variables is
+  <pre>
+def func(oldlist):
+    upper = str.upper
+    newlist = []
+    append = newlist.append
+    for word in oldlist:
+        append(upper(word))
+    return newlist
+  </pre>
+   but in my computer that didn't improve the speed. 
+ </p>
+<p>
+I received some emails questioning the validity of those optimizations.
+</p><p>
+ First of all, the author of the Python performance tips suggest that we should always make test with our specific version of Python. I compared the previous blocks of code in my laptop, by plotting the number of words in oldlist vs time. Here are my results:
+</p>
+<img src='img/final.png'></img>
+
+  <p>In this case, avoiding dots seems to be a good idea when working with big data, but you should make your own test.
+<p>
 Another piece of advice is to learn about Threads and Multiprocess. Sometimes a simple:
 
 <pre>
