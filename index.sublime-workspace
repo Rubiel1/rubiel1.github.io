@@ -1,1 +1,343 @@
-{}
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"erased_population_",
+				"erased_population_pattern"
+			],
+			[
+				"color",
+				"text-decoration-color"
+			],
+			[
+				"li",
+				"datalist"
+			],
+			[
+				"input",
+				"inputPath"
+			],
+			[
+				"proces",
+				"processed_images"
+			],
+			[
+				"bas",
+				"Basics"
+			],
+			[
+				"Data",
+				"Datasets"
+			],
+			[
+				"ex",
+				"exercises"
+			],
+			[
+				"in",
+				"interests"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/FSU/Desktop/aimath.py",
+		"/C/Users/FSU/Documents/Python Scripts/wworkingfs/tests/generator_test.py",
+		"/C/Users/FSU/Documents/Python Scripts/wworkingfs/funsearch/__main__.py",
+		"/C/Users/FSU/Documents/Python Scripts/wworkingfs/funsearch/sampler.py",
+		"/C/Users/FSU/Documents/Python Scripts/wworkingfs/tests/poset_test.py",
+		"/C/Users/FSU/Documents/GitHub/Jfunsearch/implementation/sampler.py",
+		"/C/Users/FSU/Documents/GitHub/funsearch_J/funsearch/sampler.py",
+		"/C/Users/FSU/Documents/GitHub/funsearch_J/examples/poset_spec.py",
+		"/C/Users/FSU/Documents/Python Scripts/wworkingfs/examples/poset_spec.py",
+		"/C/Users/FSU/AppData/Local/Temp/78c17b77-20ac-40aa-a922-a2c8b322149f_funsearch_J2.zip.49f/examples/prime_spec.py",
+		"/C/Users/FSU/Documents/Python Scripts/Busan/project.py",
+		"/C/Users/FSU/Documents/GitHub/funsearch_J/examples/prime_spec.py",
+		"/C/Users/FSU/Downloads/nohup3.out",
+		"/C/Users/FSU/Documents/GitHub/Jfunsearch/main.py",
+		"/C/Users/FSU/Documents/GitHub/Jfunsearch/test_inputs_example_cap_set.txt",
+		"/C/Users/FSU/Documents/GitHub/Jfunsearch/implementation/evaluator.py",
+		"/C/Users/FSU/Documents/GitHub/Jfunsearch/implementation/funsearch.py",
+		"/C/Users/FSU/Documents/GitHub/Jfunsearch/implementation/programs_database.py",
+		"/C/Users/FSU/Documents/GitHub/Jfunsearch/prime_spec.py",
+		"/C/Users/FSU/Documents/GitHub/funsearch_J/toerase.out",
+		"/C/Users/FSU/Documents/GitHub/Jfunsearch/reports/20240404_222736/island_9_best_program.py",
+		"/C/Users/FSU/Documents/GitHub/Jfunsearch/reports/20240404_222736/island_0_best_program.py",
+		"/C/Users/FSU/Documents/GitHub/funsearch_J/funsearch/sandbox.py",
+		"/C/Users/FSU/Documents/GitHub/funsearch_J/funsearch/__main__.py",
+		"/C/Users/FSU/Documents/GitHub/funsearch_J/funsearch/core.py",
+		"/C/Users/FSU/Documents/GitHub/funsearch_J/pyproject.toml",
+		"/C/Users/FSU/Documents/GitHub/funsearch_J/funsearch/evaluator.py",
+		"/C/Users/FSU/Documents/GitHub/funsearch_J/funsearch/programs_database.py",
+		"/C/Users/FSU/Documents/GitHub/funsearch_J/funsearch/config.py",
+		"/C/Users/FSU/Documents/GitHub/funsearch_J/data/nohup.out",
+		"/C/Users/FSU/Downloads/change(1).py",
+		"/C/Users/FSU/Documents/GitHub/rubiel1.github.io/index.html",
+		"/C/Users/FSU/Documents/GitHub/rubiel1.github.io/esp.html",
+		"/C/Users/FSU/Documents/Python Scripts/Busan/MSC_2020.csv",
+		"/C/Users/FSU/Documents/Python Scripts/Busan/data.json",
+		"/C/Users/FSU/Documents/Python Scripts/Busan/JSON_schools.json",
+		"/C/Users/FSU/Documents/Python Scripts/Busan/Mexico.json",
+		"/C/Users/FSU/Downloads/homework.py",
+		"/C/Users/FSU/Documents/Python Scripts/Busan/bot.py",
+		"/C/Users/FSU/Documents/Python Scripts/Busan/GA.py",
+		"/C/Users/FSU/Documents/Python Scripts/Busan/GApractice.py",
+		"/C/Users/FSU/Documents/Python Scripts/Busan/MexicoIDS.json",
+		"/C/Users/FSU/Documents/Python Scripts/Busan/People.json",
+		"/C/Users/FSU/Documents/Python Scripts/Busan/MexData.py",
+		"/C/Users/FSU/Documents/GitHub/hackathon/botprogram.py",
+		"/C/Users/FSU/Documents/Python Scripts/Busan/basic_code.py",
+		"/C/Users/FSU/Documents/Python Scripts/Busan/class.py",
+		"/C/Users/FSU/Documents/GitHub/rubiel1.github.io/research.html",
+		"/C/Users/FSU/Documents/GitHub/rubiel1.github.io/talks.html",
+		"/C/Users/FSU/Documents/GitHub/rubiel1.github.io/tec.html",
+		"/C/Users/FSU/Documents/GitHub/machine_learning_class/Lectures_Jupyter/L4GeneticAlgorithms/.ipynb_checkpoints/L4GeneticAlgorithms-checkpoint.ipynb",
+		"/C/Users/FSU/Downloads/mgp.py",
+		"/C/Users/FSU/Downloads/mgp(1).py",
+		"/C/Users/FSU/Downloads/plot_multioutput_face_completion.py",
+		"/C/Users/FSU/Documents/GitHub/rubiel1.github.io/tips.html",
+		"/C/Users/FSU/Documents/GitHub/rubiel1.github.io/mediaes.html",
+		"/C/Users/FSU/Documents/GitHub/rubiel1.github.io/mlseminar.html",
+		"/C/Users/FSU/Documents/GitHub/rubiel1.github.io/pi2022.html",
+		"/C/Users/FSU/Documents/GitHub/rubiel1.github.io/media.html",
+		"/C/Users/FSU/Documents/GitHub/rubiel1.github.io/hell.html",
+		"/C/Users/FSU/Documents/GitHub/rubiel1.github.io/polluting companies.html",
+		"/C/Users/FSU/Documents/GitHub/rubiel1.github.io/Stablediffusion.html",
+		"/C/Users/FSU/Anaconda3/pkgs/pytorch-1.11.0-py3.8_cuda11.3_cudnn8_0/Lib/site-packages/torch/testing/_internal/distributed/rpc/examples/reinforcement_learning_rpc_test.py",
+		"/C/Users/FSU/Documents/GitHub/rubiel1.github.io/activism.html",
+		"/C/Users/FSU/Documents/GitHub/rubiel1.github.io/tutoring.html",
+		"/C/Users/FSU/Documents/GitHub/rubiel1.github.io/text.html",
+		"/C/Users/FSU/Documents/GitHub/rubiel1.github.io/AI.html",
+		"/C/Users/FSU/Documents/GitHub/rubiel1.github.io/bm.html",
+		"/C/Users/FSU/Documents/GitHub/rubiel1.github.io/Dalle.html",
+		"/C/Users/FSU/Documents/GitHub/chinampas/requirements.txt",
+		"/C/Users/FSU/Documents/MobaXterm/slash/RemoteFiles/132902_2_3/BEOACT_2F_trans2.out",
+		"/C/Users/FSU/Documents/MobaXterm/slash/RemoteFiles/132902_2_4/data.BEOACT_1link",
+		"/C/Users/FSU/Documents/MobaXterm/slash/RemoteFiles/132902_2_5/in.DACTOR_NO2",
+		"/C/Users/FSU/Documents/MobaXterm/slash/RemoteFiles/132902_2_6/BEOACT_1link.out1",
+		"/C/Users/FSU/Documents/MobaXterm/slash/RemoteFiles/132902_2_7/data.AXUBAW_2r3cl",
+		"/C/Users/FSU/Anaconda3/pkgs/bokeh-1.2.0-py36_0/Lib/site-packages/bokeh/protocol/messages/ack.py",
+		"/C/Users/FSU/Downloads/1414.06001.bib",
+		"/C/Users/FSU/Downloads/1507.06002(1).bib",
+		"/C/Users/FSU/Downloads/10.1007_BFb0084232-citation.bib",
+		"/C/Users/FSU/Documents/GitHub/pattern/patron.py",
+		"/C/Users/FSU/Documents/MobaXterm/slash/RemoteFiles/722484_2_0/nohup.out",
+		"/C/Users/FSU/Documents/MobaXterm/slash/RemoteFiles/722484_2_39/nohup.out",
+		"/C/Users/FSU/Documents/MobaXterm/slash/RemoteFiles/787394_3_2/nohup.out",
+		"/C/Users/FSU/Documents/MobaXterm/slash/RemoteFiles/787394_3_1/nohup.out",
+		"/C/Users/FSU/Documents/MobaXterm/slash/RemoteFiles/787394_3_3/nohup.out",
+		"/C/Users/FSU/Documents/MobaXterm/slash/RemoteFiles/787394_2_0/nohup.out",
+		"/C/Users/FSU/Documents/MobaXterm/slash/RemoteFiles/262358_3_10/nohup.out",
+		"/C/Users/FSU/Documents/MobaXterm/slash/RemoteFiles/262358_3_9/nohup.out",
+		"/C/Users/FSU/Documents/MobaXterm/slash/RemoteFiles/262358_3_8/nohup.out",
+		"/C/Users/FSU/Documents/MobaXterm/slash/RemoteFiles/262358_3_7/nohup.out",
+		"/C/Users/FSU/Documents/MobaXterm/slash/RemoteFiles/262358_3_6/nohup.out",
+		"/C/Users/FSU/Documents/MobaXterm/slash/RemoteFiles/262358_3_5/nohup.out",
+		"/C/Users/FSU/Documents/MobaXterm/slash/RemoteFiles/198866_4_11/nohup.out",
+		"/C/Users/FSU/Documents/MobaXterm/slash/RemoteFiles/198866_4_12/nohup.out",
+		"/C/Users/FSU/Documents/MobaXterm/slash/RemoteFiles/198866_4_13/nohup.out",
+		"/C/Users/FSU/Documents/MobaXterm/slash/RemoteFiles/198866_4_20/nohup.out",
+		"/C/Users/FSU/Documents/MobaXterm/slash/RemoteFiles/198866_4_16/nohup.out",
+		"/C/Users/FSU/Documents/MobaXterm/slash/RemoteFiles/198866_4_15/nohup.out",
+		"/C/Users/FSU/Documents/MobaXterm/slash/RemoteFiles/198866_4_14/nohup.out",
+		"/C/Users/FSU/Documents/MobaXterm/slash/RemoteFiles/198866_4_10/nohup.out",
+		"/C/Users/FSU/Documents/MobaXterm/slash/RemoteFiles/198866_4_9/nohup.out",
+		"/C/Users/FSU/Documents/GitHub/rubiel1.github.io/Seminar.html",
+		"/C/Users/FSU/Documents/GitHub/machine_learning_webpage/contact/index.html",
+		"/C/Users/FSU/Pictures/tti/replacement.py",
+		"/C/Users/FSU/Anaconda3/envs/ldm/Lib/site-packages/spyder/plugins/completion/providers/languageserver/client.py",
+		"/C/Users/FSU/Documents/GitHub/machine_learning_webpage/index.html",
+		"/C/Users/FSU/Downloads/Institutiones_Calculi_differentialis.bibtex",
+		"/C/Users/FSU/Downloads/Enumerative_Combinatorics_Volume_1.bibtex",
+		"/C/Users/FSU/Documents/GitHub/rubiel1.github.io/github-markdown.css",
+		"/C/Users/FSU/Documents/automationEricDhtml.htm",
+		"/C/Users/FSU/Downloads/gradio.py",
+		"/C/Users/FSU/Documents/automationEricDhtml.mht",
+		"/C/Users/FSU/Documents/GitHub/machine_learning_webpage/data/en/philosophy.yml",
+		"/C/Users/FSU/Documents/GitHub/machine_learning_webpage/tags/index.html",
+		"/C/Users/FSU/Documents/GitHub/machine_learning_webpage/portfolio/index.html",
+		"/C/Users/FSU/Documents/GitHub/machine_learning_webpage/feature/index.html",
+		"/C/Users/FSU/Documents/GitHub/machine_learning_webpage/categories/index.html",
+		"/C/Users/FSU/Documents/GitHub/machine_learning_webpage/blog/index.html",
+		"/C/Users/FSU/Documents/GitHub/machine_learning_webpage/about/index.html",
+		"/C/Users/FSU/Documents/GitHub/machine_learning_webpage/blog/are-you-doing-the-right-way/index.html",
+		"/C/Users/FSU/Downloads/exp/RCSR.py",
+		"/C/Users/FSU/Downloads/car.py",
+		"/C/Users/FSU/Downloads/mofito/in.DASHAH_CEZJUM_tetra",
+		"/C/Users/FSU/Downloads/mofito/AROXEK_1_2.xyz",
+		"/C/Users/FSU/Downloads/mofito/ACOWIR20_1_2.xyz",
+		"/C/Users/FSU/Documents/GitHub/rubiel1.github.io/style.css",
+		"/C/Users/FSU/Downloads/in.DASHAH_CEZJUM_tetra",
+		"/C/Users/FSU/Downloads/ACOWIR20_1_2.xyz"
+	],
+	"find":
+	{
+		"height": 29.6
+	},
+	"find_in_files":
+	{
+		"height": 111.2,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"combinations"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.6
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SFTP":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Python/Python.sublime-build",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 188.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
