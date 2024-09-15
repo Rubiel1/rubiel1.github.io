@@ -1,0 +1,515 @@
+/* header_sub, footer_sub */
+
+
+.content {
+  width: 100%;
+  padding: 0 0 150px;
+}
+.content .sub_visual {
+  width: 100%;
+  height: 250px;
+  margin-bottom: 10px;
+}
+.content .inner {
+  width: 1180px;
+  margin: 0 auto;
+  min-height: 500px;
+}
+.content .inner h1 {
+  clear:both;
+  font: bold 28px/1 "arial";
+  color: #555;
+  text-align: center;
+}
+
+.conts {
+  width: 100%;
+  min-height: 600px;
+  font: 14px/1.4 "arial";
+  color: #777;
+}
+
+
+
+
+
+/* sub page */
+.content.research .sub_visual {
+  background: url(../img/style/sub_bg1.jpg) no-repeat center/cover;
+  opacity:.7;
+}
+.content.talks .sub_visual {
+  background: url(../img/style/sub_bg1.jpg) no-repeat center/cover;
+  opacity:.7;
+}
+.content.experiments .sub_visual {
+  background: url(../img/style/sub_bg1.jpg) no-repeat center/cover;
+  opacity:.7;
+}
+.content.others .sub_visual {
+  background: url(../img/style/sub_bg1.jpg) no-repeat center/cover;
+  opacity:.7;
+}
+
+
+.box_mr {
+  margin:50px 0;
+}
+.box_mr2 {
+  margin:20px 0;
+}
+.box_mr3 {
+  margin:100px 0;
+}
+.box_mr4 {
+  margin:0 0 20px;
+}
+.others .conts a.block_clr {
+  display:inline;
+}
+
+/* title */
+.soruce_txt {
+}
+.empty_mr {
+  margin:30px 0;
+  border-top:1px dotted #ddd;
+}
+
+
+
+
+/* research page */ 
+.research .conts {
+  padding-top:100px;
+}
+.research section {
+  margin:70px 0;
+}
+.research section h2 {
+  margin-bottom:20px;
+  font: bold 22px / 1 "arial";
+  color:#555;
+}
+.research .preprints_list li {
+  margin-bottom: 30px;
+}
+.research section span {
+  display:block;
+  padding:50px;
+  text-align: center;
+}
+.research section span img {
+  width:20%;
+  border-radius: 5px;
+}
+
+
+
+
+
+
+/* talks page */
+.talks section {
+  margin: 100px 0;
+}
+.talks section h2 {
+  margin-bottom:20px;
+  font: bold 22px / 1 "arial";
+  color:#555;
+}
+.talks section ul,
+.talks section li {
+  list-style:circle;
+  padding-left:7px;
+}
+.talks section li {
+  margin-bottom:20px;
+}
+.talks section li p {
+  margin-bottom:10px;
+}
+.talks section span {
+  display: block;
+  padding: 10px 0;
+}
+.talks li a {
+  font: 14px / 1.6 'arial'
+}
+.talks section span img {
+  width:30%;
+  border-radius: 5px;
+  box-shadow: 0px 3px 5px -1px rgb(0 0 0 / 20%);
+}
+.talks iframe body {
+  width:500px;
+  text-align: center;
+}
+.talks section .img_mr img {
+  width:50%;
+}
+
+
+/* poster */
+.organized_poster {
+  width: 1180px;
+  margin: 0 auto;
+}
+.talks .organized_poster ul {
+  width: 100%;
+  list-style-type: none;
+  overflow: hidden;
+  padding-left:0;
+}
+.talks .organized_poster li {
+  width: auto;
+  float: left;
+  margin-right: 10px;
+  padding-left:0;
+  list-style-type: none;
+}
+.organized_poster li:last-child {
+  margin-right: 0;
+}
+.organized_poster li p {
+  width: 100%;
+  height: 270px;
+  overflow: hidden;
+}
+.organized_poster li:last-child p img {
+  width: 100%;
+  height: 50%;
+}
+.organized_poster li img {
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+
+/* experiments page */
+.experiments section {
+  margin:100px 0;
+}
+.experiments section h2 {
+  margin-bottom:20px;
+  font: bold 22px / 1 "arial";
+  color:#555;
+}
+.experiments section li {
+  margin-bottom:30px;
+  word-wrap: break-word;
+}
+.experiments section span {
+  display:block;
+  padding:50px;
+  text-align: center;
+}
+.experiments section span img {
+  width:30%;
+  border-radius: 5px;
+  box-shadow: 0px 3px 5px -1px rgb(0 0 0 / 20%);
+}
+
+.artbeyond_humanity ul li,
+.artbeyond_humanity ul {
+  margin-left:7px;
+  list-style: square;
+}
+
+
+.artbeyond_humanity h2 + ul { 
+  padding-top: 60px;
+}
+
+.artbeyond_humanity strong {
+  display:block;
+  margin-bottom:15px;
+  font: bold 15px/20px 'arial';
+  font-weight:600;
+  color:#777;
+}
+.artbeyond_humanity li p {
+  margin-bottom:10px;
+}
+
+.tipson_bigdata p {
+  margin-bottom:15px;
+  margin-top:10px;
+}
+.tipson_bigdata span + strong {
+  display: block;
+  margin-bottom: 50px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #ddd;
+  font-weight:600;
+}
+
+
+
+
+
+
+/* others */
+.others .inner h1 {
+  margin-bottom:100px;
+}
+.others section {
+  margin-bottom:80px;
+  padding-bottom: 25px;
+  border-bottom:1px solid #ddd;
+}
+.others section div {
+  margin-bottom:50px;
+}
+.others section:nth-child(2) {
+  padding-bottom: 0;
+}
+.others section:last-child {
+  border-bottom: none;
+}
+.others section h2 {
+  font: bold 24px/1 "arial";
+  color: #555;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.others .conts a {
+  display:block;
+}
+.others div p {
+  margin-bottom:11px;
+}
+.others strong {
+  display:block;
+  margin-bottom:20px;
+  font-weight:600;
+}
+.others section span {
+  display:block;
+  padding:50px;
+  text-align: center;
+}
+.others section span img {
+  width:50%;
+  border-radius: 5px;
+  box-shadow: 0px 3px 5px -1px rgb(0 0 0 / 20%);
+}
+.others section li {
+  margin-bottom:10px;
+}
+
+
+
+/* short_story */ 
+.others .conts .short_stoty a {
+  display:inline;
+}
+.short_stoty p.empty_mr {
+  margin:60px 0;
+} 
+.short_stoty em {
+  font: bold 13px/1 "arial";
+  color:#555;
+}
+.short_stoty p span {
+  display: inline-block;
+  width:70px;
+  padding:0;
+  text-align:left;
+  font: bold 13px/1 "Libre Caslon Text";
+  color:#333;
+}
+.shory_bg .short_stoty h2 {
+  font-family: "Libre Caslon Text", serif;
+  font-size:18px;
+}
+.shory_bg .short_stoty {
+  border-bottom:0;
+}
+.short_stoty h3 {
+  margin-top:50px;
+  margin-bottom:20px;
+  padding-top:70px;
+  border-top:1px solid #ddd;
+}
+.short_stoty ol li,
+.short_stoty ol {
+  list-style-type: decimal;
+  list-style-position: inside;
+}
+.conts .short_stoty ol li a {
+  display: inline-block;
+  padding-right:10px;
+  font: 15px/1.4 "arial";
+}
+
+
+/* recursos */
+.recursos p {
+  margin-top:10px;
+}
+.recursos .box_mr3 {
+  padding-top:70px;
+  border-top:1px solid #ddd;
+}
+.recursos ul li.box_mr2 {
+  margin-bottom: 70px;
+  padding-bottom:50px;
+  border-bottom:1px solid #ddd;
+}
+.recursos li {
+  margin-bottom: 50px;
+}
+.recursos strong {
+  font: bold 15px/1.4 "arial";
+  font-weight:600;
+}
+
+
+
+.timewar section {
+    margin: 100px 0;
+}
+.conts .timewar p {
+  margin-bottom:40px;
+  font: 15px / 2 "arial";
+}
+.conts .timewar span {
+  padding:0;
+  text-align:left;
+  font: bold 14px / 2 "arial";
+  color: #555;
+  font-style:italic;
+}
+.timewar em {
+  font: bold 13px / 1 "arial";
+  color: #555;
+}
+
+
+section.stablediffusion_gallery span img {
+  width:40%;
+  border-radius: 5px;
+}
+.stablediffusion_gallery strong {
+  display:block;
+  margin:20px 0;
+  font: bold 20px / 1 "arial";
+  font-style:italic;
+}
+
+
+
+/* subpage */
+@media screen and (max-width: 1179px) {
+  .content .inner {
+    width:100%;
+    padding:0 30px;
+  }
+  .content .inner h1 {
+    padding-top:30px;
+  }
+
+  .talks section span img {
+    width:35%;
+  }
+  .talks section .img_mr img {
+    width:80%;
+  }
+
+  .organized_poster {
+    width:100%;
+  }
+  .experiments section span {
+    padding:20px;
+  }
+  .experiments section span img {
+    width:50%;
+  }
+  .code_box, pre {
+    width:100%;
+  }
+
+}
+
+
+/* subpage */
+@media screen and (max-width: 539px) {
+  .content {
+    padding: 0 0 80px;
+  }
+  .content .sub_visual {
+    height: 150px;
+  }
+  .content .inner {
+    min-height: 300px;
+    padding: 0 20px;
+  }
+  .content .inner h1 {
+    padding:50px 0 0 0;
+    font: bold 24px / 1 "arial";
+  }
+  .research .conts {
+    padding-top: 50px;
+  }
+  .others section span,
+  .research section span {
+    padding:15px;
+  }
+  .others section span img {
+    width:70%;
+   }
+  .research section span img {
+    width: 40%;
+  }
+  .talks section {
+    margin: 50px 0;
+  }
+  .talks iframe {
+    width:100%;
+  }
+
+  .talks section span img {
+    width:70%;
+  }
+  .talks section .img_mr img {
+    width: 100%;
+  }
+  .organized_poster li:last-child p img {
+    height:35%;
+  }
+
+  .others .inner h1 {
+    margin-bottom: 50px;
+  }
+
+  .experiments section {
+    margin: 50px 0;
+  }
+  .experiments section span {
+    padding:20px;
+  }.experiments section span img {
+    width: 90%;
+  }
+  .others section h2,
+  .research section h2,
+  .talks section h2,
+  .experiments section h2 {
+    font: bold 20px / 1 "arial";
+  }
+  .short_stoty p span {
+    padding:0;
+  }
+  .content .short_stoty span img {
+    width:100%;
+  }
+}
+
+
+
+
+
