@@ -83,8 +83,12 @@
 .research .conts {
   padding-top:100px;
 }
+.research .conts > div {
+  font-size:16px;
+}
 .research section {
   margin:70px 0;
+  line-height:1.4;
 }
 .research section h2 {
   margin-bottom:20px;
@@ -121,7 +125,7 @@
 .talks section ul,
 .talks section li {
   list-style:circle;
-  padding-left:7px;
+  padding-left:12px;
 }
 .talks section li {
   margin-bottom:20px;
@@ -194,12 +198,12 @@
   margin:100px 0;
 }
 .experiments section h2 {
-  margin-bottom:20px;
+  margin-bottom:40px;
   font: bold 22px / 1 "arial";
   color:#555;
 }
 .experiments section li {
-  margin-bottom:30px;
+  margin-bottom:20px;
   word-wrap: break-word;
 }
 .experiments section span {
@@ -226,8 +230,8 @@
 
 .artbeyond_humanity strong {
   display:block;
-  margin-bottom:15px;
-  font: bold 15px/20px 'arial';
+  margin-bottom:30px;
+  font: 15px/20px 'arial';
   font-weight:600;
   color:#777;
 }
@@ -246,7 +250,6 @@
   border-bottom: 1px solid #ddd;
   font-weight:600;
 }
-
 
 
 
@@ -315,6 +318,10 @@
   font: bold 13px/1 "arial";
   color:#555;
 }
+.short_stoty li em {
+  font-weight:normal;
+  color:#999;
+}
 .short_stoty p span {
   display: inline-block;
   width:70px;
@@ -326,6 +333,7 @@
 .shory_bg .short_stoty h2 {
   font-family: "Libre Caslon Text", serif;
   font-size:18px;
+  font-style:italic;
 }
 .shory_bg .short_stoty {
   border-bottom:0;
@@ -461,7 +469,7 @@ section.stablediffusion_gallery span img {
     padding:15px;
   }
   .others section span img {
-    width:70%;
+    width:100%;
    }
   .research section span img {
     width: 40%;
@@ -474,7 +482,7 @@ section.stablediffusion_gallery span img {
   }
 
   .talks section span img {
-    width:70%;
+    width:90%;
   }
   .talks section .img_mr img {
     width: 100%;
@@ -487,13 +495,16 @@ section.stablediffusion_gallery span img {
     margin-bottom: 50px;
   }
 
+  .artbeyond_humanity iframe {
+    width:100%;
+   }
   .experiments section {
     margin: 50px 0;
   }
   .experiments section span {
     padding:20px;
   }.experiments section span img {
-    width: 90%;
+    width: 100%;
   }
   .others section h2,
   .research section h2,
@@ -502,10 +513,15 @@ section.stablediffusion_gallery span img {
     font: bold 20px / 1 "arial";
   }
   .short_stoty p span {
+    width:auto;
     padding:0;
   }
   .content .short_stoty span img {
     width:100%;
+  }
+
+  .code_box, pre {
+    word-wrap: break-word;
   }
 }
 

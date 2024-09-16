@@ -537,7 +537,7 @@ html {
   margin-right: 20px;
   padding: 10px;
   text-align: center;
-  background-color:#ddd;
+  background-color:#f5f6f7;
   border-radius:4px;
 }
 #gallery .inner .wrap article:nth-of-type(1) div {
@@ -641,14 +641,17 @@ html {
   color: #fff;
   text-align: center;
 }
-#banner .inner p {
-  font: bold 18px/2 "Roboto";
-  color: #000;
+#banner .inner p,
+#banner .inner q {
+  font: bold 16px/2 "Roboto";
+  color: #fff;
   font-style:italic;
   text-align: center;
 }
-
-
+#banner .inner p {
+  font-size:14px;
+  font-style:normal;
+}
 
 
 /* recent_news */
@@ -921,18 +924,21 @@ html {
   }
 
   #banner {
-    padding:10px 0 10px;
+    padding:10px 0 15px;
   }
   #banner .inner {
     padding: 0 20px;
-  }
-  #banner .inner p {
-    font: bold 15px/2 "Roboto"
   }
   #banner .inner h1 {
     margin: 20px;
     font: bold 24px / 1 "lora";
   }
+  #banner .inner p,
+  #banner .inner q {
+    font: bold 13px/1.4 "Roboto"
+  }
+ 
+
   #footer .inner h1 {
     margin-bottom: 20px;
   }
