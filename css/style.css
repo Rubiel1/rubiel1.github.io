@@ -36,6 +36,7 @@ body {
   font-weight: 400;
   font-size: 14px;
   color:#777;
+  background-color: #fff;
 }
 
 
@@ -52,7 +53,10 @@ body {
 .dark_bg .conts {
   color:#fff;
 }
-
+.dark_bg #header .inner .menuWeb #gnb > li > a,
+.dark_bg #header .inner .menuMo h1 a {
+  color:#fff;
+}
 
 .hidden {
   position: absolute;
@@ -88,7 +92,7 @@ pre {
 }
 .btns_copy {
   position:absolute;
-  top:5px;
+  top:6px;
   right:0;
   width: 40px;
   height: 28px;
@@ -131,7 +135,7 @@ sup {
   color: #5f6368;
 }
 .breadcrumb .on a {
-  font: bold 14px/20px 'arial';
+  font: bold 12px/20px 'arial';
   color:rgb(0, 107, 108);
 }
 .breadcrumb .on:before {
@@ -935,7 +939,8 @@ html {
   }
   #banner .inner p,
   #banner .inner q {
-    font: bold 13px/1.4 "Roboto"
+    font: bold 13px/1.4 "Roboto";
+    color:#fff;
   }
  
 

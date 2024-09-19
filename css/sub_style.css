@@ -124,8 +124,8 @@
 }
 .talks section ul,
 .talks section li {
-  list-style:circle;
-  padding-left:12px;
+  list-style:square;
+  :12px;
 }
 .talks section li {
   margin-bottom:20px;
