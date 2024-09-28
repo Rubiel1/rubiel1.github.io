@@ -92,7 +92,7 @@ pre {
 }
 .btns_copy {
   position:absolute;
-  top:6px;
+  top:0;
   right:0;
   width: 40px;
   height: 28px;
@@ -131,17 +131,17 @@ sup {
   display: inline-block;
 }
 .breadcrumb li a {
-  font: bold 14px/20px 'arial';
+  font: bold 12px/20px 'arial';
   color: #5f6368;
 }
 .breadcrumb .on a {
-  font: bold 12px/20px 'arial';
+  font: bold 14px/20px 'arial';
   color:rgb(0, 107, 108);
 }
 .breadcrumb .on:before {
   content: '/';
   display: inline-block;
-  padding: 0 15px;
+  padding: 0 10px;
   color: #6c757d;
 }
 
@@ -202,6 +202,7 @@ html {
 #header {
   width: 100%;
   border-bottom: 1px solid #ddd;
+  background-color:#fff;
 }
 #header .inner {
   width: 1180px;
@@ -942,7 +943,10 @@ html {
     font: bold 13px/1.4 "Roboto";
     color:#fff;
   }
- 
+  .organized_poster li img {
+    width:80%;
+    height:auto;
+  }
 
   #footer .inner h1 {
     margin-bottom: 20px;

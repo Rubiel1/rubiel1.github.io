@@ -69,8 +69,6 @@
 }
 
 /* title */
-.soruce_txt {
-}
 .empty_mr {
   margin:30px 0;
   border-top:1px dotted #ddd;
@@ -122,10 +120,12 @@
   font: bold 22px / 1 "arial";
   color:#555;
 }
+.talks section ul {
+  margin:0 0 0 15px;
+}
 .talks section ul,
 .talks section li {
   list-style:square;
-  :12px;
 }
 .talks section li {
   margin-bottom:20px;
@@ -164,6 +164,7 @@
   list-style-type: none;
   overflow: hidden;
   padding-left:0;
+  margin:0;
 }
 .talks .organized_poster li {
   width: auto;
@@ -212,7 +213,7 @@
   text-align: center;
 }
 .experiments section span img {
-  width:30%;
+  width:35%;
   border-radius: 5px;
   box-shadow: 0px 3px 5px -1px rgb(0 0 0 / 20%);
 }
@@ -239,10 +240,7 @@
   margin-bottom:10px;
 }
 
-.tipson_bigdata p {
-  margin-bottom:15px;
-  margin-top:10px;
-}
+
 .tipson_bigdata span + strong {
   display: block;
   margin-bottom: 50px;
@@ -447,6 +445,9 @@ section.stablediffusion_gallery span img {
 
 /* subpage */
 @media screen and (max-width: 539px) {
+   pre {
+    font: 12px / 20px 'arial';
+  }
   .content {
     padding: 0 0 80px;
   }
@@ -459,10 +460,16 @@ section.stablediffusion_gallery span img {
   }
   .content .inner h1 {
     padding:50px 0 0 0;
-    font: bold 24px / 1 "arial";
+    font: bold 22px / 1 "arial";
   }
+  .research .conts > div {
+    font-size: 14px;
+ }
   .research .conts {
     padding-top: 50px;
+  }
+  .breadcrumb .on:before {
+    padding: 0 5px;
   }
   .others section span,
   .research section span {
