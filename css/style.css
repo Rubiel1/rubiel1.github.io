@@ -133,6 +133,7 @@ sup {
 .breadcrumb li a {
   font: bold 12px/20px 'arial';
   color: #5f6368;
+  word-wrap: break-word;
 }
 .breadcrumb .on a {
   font: bold 14px/20px 'arial';
@@ -202,7 +203,6 @@ html {
 #header {
   width: 100%;
   border-bottom: 1px solid #ddd;
-  background-color:#fff;
 }
 #header .inner {
   width: 1180px;
