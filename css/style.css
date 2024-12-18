@@ -717,8 +717,8 @@ html {
 #footer .inner {
   width: 1180px;
   margin: 0 auto;
-  background: url(../img/style/1.png) no-repeat bottom center;
-  background-size:50px;
+  /* background: url(../img/style/1.png) no-repeat bottom center;
+  background-size:50px;*/
 }
 #footer .inner h1 {
   margin-bottom: 15px;
