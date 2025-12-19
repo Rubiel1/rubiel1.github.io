@@ -41,7 +41,7 @@ body.dark_bg .content .sub_visual {
 .content.talks .sub_visual,
 .content.experiments .sub_visual {
   background: url(../img/style/sub_bg1.jpg) no-repeat center/cover;
-  opacity:.5;
+  opacity:.8;
   filter:grayscale(80%);
 }
 .content.others .sub_visual {
@@ -488,7 +488,7 @@ section.stablediffusion_gallery span img {
   }
   .content .inner h1 {
     padding:50px 0 0 0;
-    font: bold 22px / 1 "arial";
+    font: bold 20px / 1 "arial";
   }
   .research .conts > div {
     font-size: 14px;

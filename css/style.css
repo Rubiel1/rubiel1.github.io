@@ -416,7 +416,7 @@ html {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  opacity: 0.3;
+  opacity: 0.4;
 }
 #visual .inner {
   width: 1180px;
@@ -937,8 +937,13 @@ div.embedded_schedule table.ntdata > caption a:hover {
   #visual .inner p {
     font: 16px / 1.4 "arial"
   }
+  .breadcrumb li a {
+    font-size:12px;
+  }
+  .breadcrumb .on a {
+    font-size:13px;
+  }
 
-  
   #profile {
     padding: 50px 20px;
   }
@@ -1005,7 +1010,8 @@ div.embedded_schedule table.ntdata > caption a:hover {
   
   #recent_news .embedded_schedule,
   div.embedded_schedule table.ntdata {
-    width:97%;
+    width:100%;
+    margin-left:0;
   }
   div.embedded_schedule table.ntdata td.talktitle {
     min-width: auto;
