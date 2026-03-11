@@ -39,7 +39,8 @@ body.dark_bg .content .sub_visual {
 }
 .content.research .sub_visual,
 .content.talks .sub_visual,
-.content.experiments .sub_visual {
+.content.experiments .sub_visual,
+.content.consulting .sub_visual {
   background: url(../img/style/sub_bg1.jpg) no-repeat center/cover;
   opacity:.8;
   filter:grayscale(80%);
